@@ -1,9 +1,12 @@
+import Navbar from "../components/Navbar";
+
 const Patients = () => {
-  return (
-    <div>
-      This is patients page
-    </div>
-  )
-}
+	return (
+		<>
+      <Navbar />
+			<div>This is patients page</div>
+		</>
+	);
+};
 
 export default Patients;
