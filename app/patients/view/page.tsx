@@ -58,7 +58,7 @@ const Patient = () => {
           <div className="flex-1">
             <div className="flex items-center gap-4 mb-6">
               <h1 className="text-xl font-semibold">Payment Status</h1>
-              <Badge variant="success" className="bg-green-100 text-green-700">
+              <Badge variant="default" className="bg-green-100 text-green-700">
                 Paid
               </Badge>
             </div>
